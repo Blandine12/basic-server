@@ -2206,7 +2206,10 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
                                 }
                                 #footer, #main {
                                   float: right;
-                                  width: 80px;
+                                  width: 80%;
+                                }
+                                #header {
+                                  width: 20%;
                                 }
                         
                           }
@@ -2214,7 +2217,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
                         /* Mobile */
                         
                           @media screen and (max-width: 736px) {
-                        
+                          
                             /* Basic */
                         
                               body, input, textarea, select {
@@ -2268,8 +2271,9 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
                                 #footer, #main {
                                   float: none;
-                                  width: 100px;
+                                  width: 100%;
                                 }
+                                
                         
                           }
                         
